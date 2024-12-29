@@ -1,0 +1,51 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F3F3E0,#CBDCEB);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.border-bottom {
+    background-color:#F9F9F9;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+.rounded-3 {
+    background-color: #cbdceb ;
+    max-width: 1050px;
+}
+
+.card {
+    height: 350px; /* Fixed height for the card */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.image-container {
+    height: 200px; /* Fixed height for the image */
+    overflow: hidden; /* Crop overflowing parts of the image */
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensures the image fills the container and maintains its aspect ratio */
+}
+
+.featurette {
+    justify-content: center;
+    align-items: center;
+}
